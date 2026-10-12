@@ -1,0 +1,14 @@
+[t=0] spawn R1 hero red
+[t=0] spawn B1 infantry blue
+[t=0] spawn B_outpost outpost blue
+[t=0] spawn B_base base blue
+[t=0] R1 -> B_base protected, hp 600
+[t=0] R1 -> B_outpost 100 damage, hp 200
+[t=0] R1 cannot shoot: overheat
+[t=5] tick 5
+[t=5] R1 -> B_outpost 100 damage, hp 100
+[t=5] B1 -> R1 10 damage, hp 290
+B1 infantry blue hp 200/200 ammo 99 heat 10
+R1 hero red hp 290/300 ammo 7 heat 200
+B_base base blue hp 600/600
+B_outpost outpost blue hp 100/300

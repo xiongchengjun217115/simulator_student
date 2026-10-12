@@ -1,0 +1,58 @@
+rule respawn 10
+spawn R1 hero red
+spawn R2 infantry red
+spawn E1 engineer red
+spawn R_out outpost red
+spawn R_base base red
+spawn B1 hero blue
+spawn B2 hero blue
+spawn B_out outpost blue
+spawn B_base base blue
+mode R1 snipe
+mode R1 cooling
+mode R1 turbo
+mode R1
+shoot R1 B_base
+shoot GHOST R1
+shoot R_out R1
+shoot E1 B1
+mode E1 cooling
+hello
+tick 3
+mode R1 snipe
+shoot R1 R2
+shoot B2 R1
+shoot B2 R1
+shoot B2 R1
+shoot B2 R1
+repair E1 R1
+repair E1 R1
+repair E1 B1
+repair R2 E1
+tick 5
+repair E1 R_out
+shoot B1 R2
+shoot B1 R2
+shoot R2 B1
+repair E1 R2
+shoot B1 R2
+tick 10
+status
+shoot R1 B_base
+shoot R1 B_out
+shoot R1 B_out
+tick 8
+shoot R1 B_out
+tick 8
+shoot R1 B_base
+tick 8
+shoot R1 B_base
+tick 8
+shoot R1 B_base
+tick 8
+shoot R1 B_base
+status
+report
+spawn X hero red
+shoot B1 R_base
+tick 1

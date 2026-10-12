@@ -1,0 +1,38 @@
+[t=0] spawn R1 hero red
+[t=0] spawn R2 infantry red
+[t=0] spawn B_outpost outpost blue
+[t=0] spawn B_out2 outpost blue
+R1 mode standard
+[t=0] R1 switching to snipe
+[t=0] R1 cannot switch: switching
+[t=0] R1 cannot switch: switching
+error: unknown mode turbo
+[t=0] R1 cannot shoot: switching
+[t=2] tick 2
+R1 mode switching -> snipe (1 s left)
+[t=3] tick 1
+[t=3] R1 mode snipe ready
+R1 mode snipe
+[t=3] R1 -> B_outpost 150 damage, hp 150
+[t=3] R1 -> B_outpost 150 damage, hp 0
+[t=3] B_outpost destroyed
+R1 hero red hp 300/300 ammo 8 heat 300
+R2 infantry red hp 200/200 ammo 100 heat 0
+B_out2 outpost blue hp 300/300
+B_outpost outpost blue hp 0/300
+[t=3] R1 switching to standard
+[t=3] R2 switching to burst
+[t=6] tick 3
+[t=6] R1 mode standard ready
+[t=6] R2 mode burst ready
+[t=6] R2 -> B_out2 15 damage, hp 285
+[t=6] R2 -> B_out2 15 damage, hp 270
+[t=6] R2 switching to cooling
+error: B_outpost is not a robot
+error: no such entity GHOST
+[t=9] tick 3
+[t=9] R2 mode cooling ready
+R1 hero red hp 300/300 ammo 8 heat 180
+R2 infantry red hp 200/200 ammo 98 heat 0
+B_out2 outpost blue hp 270/300
+B_outpost outpost blue hp 0/300

@@ -1,0 +1,11 @@
+spawn R1 hero red
+spawn B1 infantry blue
+spawn B_outpost outpost blue
+spawn B_base base blue
+shoot R1 B_base
+shoot R1 B_outpost
+shoot R1 B_outpost
+tick 5
+shoot R1 B_outpost
+shoot B1 R1
+status

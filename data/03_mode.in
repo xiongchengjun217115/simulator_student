@@ -1,0 +1,27 @@
+spawn R1 hero red
+spawn R2 infantry red
+spawn B_outpost outpost blue
+spawn B_out2 outpost blue
+mode R1
+mode R1 snipe
+mode R1 snipe
+mode R1 cooling
+mode R1 turbo
+shoot R1 B_outpost
+tick 2
+mode R1
+tick 1
+mode R1
+shoot R1 B_outpost
+shoot R1 B_outpost
+status
+mode R1 standard
+mode R2 burst
+tick 3
+shoot R2 B_out2
+shoot R2 B_out2
+mode R2 cooling
+mode B_outpost standard
+mode GHOST standard
+tick 3
+status

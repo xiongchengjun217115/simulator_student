@@ -1,0 +1,23 @@
+spawn E1 engineer red
+spawn R1 hero red
+spawn R_out outpost red
+spawn B1 hero blue
+spawn B_out outpost blue
+repair E1 R1
+shoot B1 R1
+shoot B1 R_out
+tick 1
+shoot B1 R1
+repair E1 R1
+repair E1 R_out
+tick 4
+repair E1 R_out
+tick 1
+repair E1 R_out
+repair E1 B1
+repair E1 E1
+repair R1 E1
+repair E1 GHOST
+shoot E1 B1
+status
+report

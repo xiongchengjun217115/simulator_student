@@ -1,0 +1,46 @@
+spawn R1 hero red
+spawn B1 infantry blue
+spawn B_out outpost blue
+spawn R_out outpost red
+rule respawn 20
+shoot B1 R1
+shoot B1 R1
+shoot B1 R1
+shoot B1 R1
+shoot B1 R1
+shoot B1 R1
+shoot B1 R1
+shoot B1 R1
+shoot B1 R1
+shoot B1 R1
+tick 10
+shoot B1 R1
+shoot B1 R1
+shoot B1 R1
+shoot B1 R1
+shoot B1 R1
+shoot B1 R1
+shoot B1 R1
+shoot B1 R1
+shoot B1 R1
+shoot B1 R1
+tick 10
+shoot B1 R1
+shoot B1 R1
+shoot B1 R1
+shoot B1 R1
+shoot B1 R1
+shoot B1 R1
+shoot B1 R1
+shoot B1 R1
+shoot B1 R1
+shoot B1 R1
+tick 10
+tick 10
+status
+tick 15
+status
+shoot R1 B_out
+rule respawn 0
+rule respawn abc
+rule speed 3
